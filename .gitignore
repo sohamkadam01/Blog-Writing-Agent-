@@ -1,0 +1,34 @@
+# --- Environment / secrets ---
+.env
+.env.local
+Frontend/.env
+!Frontend/.env.example
+Backend/.env
+
+# --- Python ---
+Backend/__pycache__/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# --- Node / Frontend build ---
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.vite/
+npm-debug.log*
+
+# --- Generated blog output artifacts (from notebooks) ---
+Backend/images/
+Backend/*.md
+!Backend/README.md
+Backend/exploring_self_attention
+Backend/decoding_self-attention_mechanisms_in_transformers.md
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
